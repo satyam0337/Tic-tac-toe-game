@@ -8,9 +8,9 @@ body {
 }
 #head{
   display:  flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
+ 
 }
 h1 {
   line-height: 1em;

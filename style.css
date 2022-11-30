@@ -6,13 +6,14 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #8052ec, #d161ff);
+  background-image: url("img/bimg.webp");
+
 }
 #head{
   display:  flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
+
 }
 html {
   font-size: 16px;
@@ -52,7 +53,8 @@ html {
   display: block;
 }
 .popup {
-  background: linear-gradient(135deg, #8052ec, #d161ff);
+background-image: url("img/bcg.webp");
+background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
